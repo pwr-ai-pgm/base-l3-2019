@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ipython:
+    image: probabilistic/ipython_pyro
+    ports:
+      - 8888:8888
+    volumes:
+      - ./data:/home/jovyan
